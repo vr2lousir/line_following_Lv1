@@ -1,0 +1,26 @@
+{
+    "name": "line_following",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "CUHK-JC-iCar": "github:hitkuangye/CUHK_JC_iCar_V2#d658dc0140023c2a2a3f40551181b3e48fcc2e0e"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
